@@ -1,7 +1,7 @@
 # DataLab.ps1
 
 # সার্ভার থেকে ডাটা সংগ্রহ করার জন্য URL
-$url = "https://mj-ahmad.github.io/data-entry.html"
+$url = "https://mj-ahmad.github.io/data-entry"
 
 # HTTP GET অনুরোধ পাঠান এবং HTML ডাটা সংগ্রহ করুন
 $response = Invoke-WebRequest -Uri $url
